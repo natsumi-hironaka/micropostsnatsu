@@ -1,0 +1,4 @@
+<?php
+ $members = array('Shiki', 'Aya', 'Tomo', 'Yusuke', 'Natsu');
+ $key=array_rand($members);
+ echo $members[$key];
